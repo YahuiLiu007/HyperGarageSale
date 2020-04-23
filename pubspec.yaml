@@ -1,0 +1,45 @@
+name: hyper_garage_sale
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_auth: ^0.16.0
+  cloud_firestore: ^0.13.5
+  firebase_core: ^0.4.4+3
+  cached_network_image:
+  camera:
+  path_provider:
+  path:
+  firebase_storage:
+
+
+
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+
+
+  uses-material-design: true
+  assets:
+  - images/
+
+
